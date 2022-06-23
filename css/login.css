@@ -1,0 +1,169 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(24,25,37);
+    background-image: url("../images/dia_img.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.hero
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../Images/index.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box
+{
+    width: 380px;
+    height: 520px;
+    position:relative;
+    left: 400px;
+    bottom:40px;
+    margin: 8% auto;
+    background:transparent;
+    border: 3px rgb(204,236,247) solid;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+    overflow: hidden;   
+ 
+    
+}
+
+.button-box
+{
+    width: 220px;
+    margin: 35px auto;
+    position:relative;
+    border: 3px black solid;
+    border-radius: 30px;
+}
+
+.toggle-btn
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    
+}
+
+#btn
+{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 110px;
+    height: 95%;
+    border: 2px black solid;
+    border-radius: 30px; 
+    transition: .5s;
+}
+.input-group
+{
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    margin: 10px 50px;
+    transition: .5s;
+}
+
+.input-field
+{   
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom:2px solid black ;
+    background: transparent;
+}
+
+.role{
+    position: relative;
+   top: 8px;
+   left: 5px;
+   bottom: 5px;
+   font-size: 13px;
+   font-family: sans-serif;
+}
+
+.submit-btn
+{   top: 60px;
+    position: relative;
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    border: 2px black solid;
+    border-radius: 30px;
+    margin: 10px 25px;
+    outline: none;
+    background-color: #c3e9ff;
+}
+
+.check-box
+{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 85px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#register
+{
+ left: 450px;
+}
+
+.pop_student
+{
+    position: relative;
+    top: 20px;
+   left: 5px;
+   bottom: 20px;
+   font-size: 13px;
+   font-family: sans-serif;
+  display: none;
+}
+.branch{
+    position: relative;
+    top: 10px;
+   left: 5px;
+   bottom: 10px;
+   font-size: 13px;
+   font-family: sans-serif;
+}
+.year{
+    position: relative;
+    top: 25px;
+   left: 5px;
+   bottom: 20px;
+   font-size: 13px;
+   font-family: sans-serif;
+}
+#branch{
+    position: relative;
+    left: 9px;
+}
+#year{
+    position: relative;
+    left: 25px;
+    margin-bottom: 20px;
+}

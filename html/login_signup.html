@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=div.hero
+    , initial-scale=1.0">
+    <title>Notes sharing</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="hero">
+        
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"> </div>
+                <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+               
+        </div>
+        <div class="input-group" id="login">
+            <input type="email" class="input-field" placeholder="Email id" name="login_email" required>
+            <input type="password" class="input-field" placeholder="password" name="login_password" required>
+          <a href="./Home.html"> <button type="submit" class="submit-btn" value="teacher_login" name="login_Submit_button_teacher"">Login</button>
+          </a>  </div>
+
+
+        
+        <div class="input-group" id="register" action="/register" method="post" onsubmit="verifyPassword() ">
+            <input type="text" class="input-field" placeholder="User Name" name="register_UserName" required>
+            <input type="email" class="input-field" placeholder="Email id" name="register_email" required>
+         
+            <input type="password" class="input-field" id="class1" placeholder="password" name="confirm_register_password" required>
+            <br><br><br><br><span id = "message" style="color:red"></span> <br>
+            <button type="submit" class="submit-btn" value="Register">Register</button>
+        </div>
+        </div>
+    </div>
+    <script>
+
+        var x= document.getElementById("login");
+        var y= document.getElementById("register");
+        var z= document.getElementById("btn");
+
+        register=()=>
+        {
+            x.style.left="-400px";
+            y.style.left="5px";
+            z.style.left="110px";
+        }
+
+        login=()=>
+        {
+            x.style.left="5px";
+            y.style.left="-455px";
+            z.style.left="0px";
+        }
+
+
+        student_pop=()=>
+        {
+            let check_box= document.getElementById('student');
+            let pop_student_div= document.getElementById('pop_student');
+
+            if(check_box)
+            {
+                pop_student_div.style.display="inline";
+            }
+            else
+            {
+                pop_student_div.style.display="none";
+            }
+
+        }
+
+        teacher_pop=()=>
+        {
+            let check_box= document.getElementById('teacher');
+            let pop_student_div= document.getElementById('pop_student');
+            
+            if(check_box)
+            {
+                pop_student_div.style.display="none";
+            }
+            else
+            {
+                pop_student_div.style.display="inline";
+            }
+
+        }
+
+
+        
+
+
+
+    </script>
+</body>
+</html>
