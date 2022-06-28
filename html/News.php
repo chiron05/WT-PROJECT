@@ -16,9 +16,9 @@
        </div>
 
        <div class="side_navBar">
-        <div class="nav_home"><a href="./Home.html" style="color: rgb(246, 248, 250);"><h3>Home</h3></a></div>
-        <div class="nav_home"><a href="./CryptInfo.html" style="color: rgb(246, 248, 250);"><h3>Cryptocurrencies</h3></a></div>
-        <div class="nav_home"><a href="./News.html" style="color: rgb(246, 248, 250);"><h3>News</h3></a></div>
+        <div class="nav_home"><a href="http://localhost/cryptoverse/html/home.php" style="color: rgb(246, 248, 250);"><h3>Home</h3></a></div>
+        <div class="nav_home"><a href="http://localhost/cryptoverse/html/all_crypto_cards.php" style="color: rgb(246, 248, 250);"><h3>Cryptocurrencies</h3></a></div>
+        <div class="nav_home"><a href="http://localhost/cryptoverse/html/all_news.php" style="color: rgb(246, 248, 250);"><h3>News</h3></a></div>
     </div>
     </div>
     <div class="data-container" >
@@ -163,7 +163,7 @@
     <div class="container">
     <h2 style="color: aliceblue; margin-left: 30px;" >CryptoVerse</h2>
     <div class="links">
-        <a href="./Home.html" >Home</a>
+        <a href="http://localhost/cryptoverse/html/home.php" >Home</a>
         <a href="./Crypto.html">Cryptocurrencies</a>
         <a href="./News.html">News</a>
     </div>

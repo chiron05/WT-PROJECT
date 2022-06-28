@@ -4,6 +4,15 @@
  
 }
 
+.news_card{
+display: flex;
+}
+
+.news-section{
+    position: absolute;
+    top: 10000px;
+}
+
 .search{
     margin-top: 10px;
     margin-bottom: 30px;
@@ -231,7 +240,6 @@ a
 .card-crypt img{
     width: 40px;
     height: 40px;
-  
 }
 
 .news-icons{
@@ -247,7 +255,16 @@ a
     height: 300px;
 }
 
-.top-crypto-cards{
-    display: flex;
+.top-crypto {
 
 }
+
+.top-crypto-cards{
+    display: inline-block;
+    margin: 2px 1px;
+}
+
+.crypto {
+    display: flex;
+}
+

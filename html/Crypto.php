@@ -17,48 +17,43 @@
        </div>
 
        <div class="side_navBar">
-        <div class="nav_home"><a href="./Home.html" style="color: rgb(246, 248, 250);"><h3>Home</h3></a></div>
-        <div class="nav_home"><a href="./CryptInfo.html" style="color: rgb(246, 248, 250);"><h3>Cryptocurrencies</h3></a></div>
-        <div class="nav_home"><a href="./News.html" style="color: rgb(246, 248, 250);"><h3>News</h3></a></div>
+        <div class="nav_home"><a href="http://localhost/cryptoverse/html/home.php" style="color: rgb(246, 248, 250);"><h3>Home</h3></a></div>
+        <div class="nav_home"><a href="http://localhost/cryptoverse/html/all_crypto_cards.php" style="color: rgb(246, 248, 250);"><h3>Cryptocurrencies</h3></a></div>
+        <div class="nav_home"><a href="http://localhost/cryptoverse/html/all_news.php" style="color: rgb(246, 248, 250);"><h3>News</h3></a></div>
     </div>
     </div>
     <div class="data-container" >
         <div class="search">
             <input type="search" placeholder="Search Cryptocurrency" >
         </div>
+
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>1 Bitcoin</p>
+                <br>
+                <p>Price: 43.2k</p>
+                <br>
+                <p>The Bitcoin blockchain is a database, the so-called ‘ledger’, that consists of bitcoin transaction records. For new transactions to be added to the ledger, the nodes must agree that the transaction is real and valid. The blockchain is public and contains records of all the transactions taking place.</p>
+            </div>
+        </div>
        
-        <div class="top-crypto-cards">
-            <button id="myBtn">
-            <div class="card-crypt" style="background-color: rgb(255, 255, 255);">
-                <div style="display: flex;
-                    justify-content: space-evenly;
-                    width: 300px;">  
-                        <h3>1 Bitcoin</h6>
+        <div style="display: flex;">
+            <button id="myBtn" style="border: none">
+                <div class="card-crypt" style="background-color: rgb(255, 255, 255);">
+                    <div style="display: flex; justify-content: space-evenly; width: 300px;">  
+                        <h3>1 Bitcoin</h3>
                         <img src="https://cdn.coinranking.com/bOabBYkcX/bitcoin_btc.svg" alt="" >
                     </div> 
                     <br>
                     <div style="display: flex; flex-direction: column; ">
-                    <p style="margin-top: 20px;">Price: 43.2k</p>
-                    <p style="margin-top: 10px;">Market Cap: 825.7B</p>
-                    <p style="margin-top: 10px;">Daily Change: -4.3%</p>
-            </div>
-        </div>
-    </button>
-    <!-- The Modal -->
-<div id="myModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <p>1 Bitcoin</p>
-      <br>
-      <p>Price: 43.2k</p>
-      <br>
-      <p>The Bitcoin blockchain is a database, the so-called ‘ledger’, that consists of bitcoin transaction records. For new transactions to be added to the ledger, the nodes must agree that the transaction is real and valid. The blockchain is public and contains records of all the transactions taking place.</p>
-
-    </div>
-  
-  </div>
+                        <p style="margin-top: 20px;">Price: 43.2k</p>
+                        <p style="margin-top: 10px;">Market Cap: 825.7B</p>
+                        <p style="margin-top: 10px;">Daily Change: -4.3%</p>
+                    </div>
+                </div>
+            </button>
 
         <div id="eth" class="card-crypt" style="background-color: rgb(255, 255, 255);  margin-left: 50px;">
             
@@ -199,7 +194,7 @@
     <div class="container">
     <h2 style="color: aliceblue; margin-left: 30px;" >CryptoVerse</h2>
     <div class="links">
-        <a href="./Home.html">Home</a>
+        <a href="http://localhost/cryptoverse/html/home.php">Home</a>
         <a href="./Crypto.html">Cryptocurrencies</a>
         <a href="./News.html">News</a>
     </div>
